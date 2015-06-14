@@ -7,7 +7,7 @@ Eden::Eden(){
     init();
 }
 
-Eden::Eden(char* _name, int _width, int _height){
+Eden::Eden(std::string _name, int _width, int _height){
     name = _name;
     if(_width > 0){
         width = _width;
@@ -48,7 +48,10 @@ void Eden::init()
       * SDL_DOUBLEBUF: rend les déplacements à l'écran plus fluide
       */
     m_buffer = SDL_SetVideoMode(width, height, 32, SDL_HWSURFACE | SDL_DOUBLEBUF);
-    SDL_WM_SetCaption(name, NULL);
+    char* charName= new char [name.length()-1];
+     strcpy(charName,name.c_str());
+    SDL_WM_SetCaption(charName, NULL);  /*titre de la fenêtre*/
+    //format = m_buffer->format;
 }
 
 void Eden::run()
@@ -63,7 +66,9 @@ void Eden::run()
         //SDL_
 
         /** Dessiner éléments */
+
         /** Passer à la frame suivante */
+        SDL_Flip(m_buffer);
     }
 }
 

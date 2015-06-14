@@ -192,14 +192,28 @@
 	"begin_code.h"
 	"close_code.h"
 
-1431103970 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.cpp
+1433335993 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.cpp
 	"eden.hpp"
 
-1431167447 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.hpp
+1433344350 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.hpp
 	<iostream>
 	<SDL/SDL.h>
 
 1431103947 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\main.hpp
 	<iostream>
 	"eden.hpp"
+
+1433343595 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\color.cpp
+	"color.hpp"
+
+1433337374 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\color.hpp
+	<iostream>
+	<SDL/SDL.h>
+
+1433337312 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\position.cpp
+	"position.hpp"
+
+1433337123 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\position.hpp
+	<iostream>
+	<SDL/SDL.h>
 

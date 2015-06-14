@@ -42,8 +42,14 @@
 			<Add library="dxguid" />
 			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/lib" />
 		</Linker>
+		<Unit filename="Color.cpp" />
+		<Unit filename="Color.hpp" />
+		<Unit filename="Rectangle.hpp" />
 		<Unit filename="cb.bmp" />
+		<Unit filename="eden.cpp" />
+		<Unit filename="eden.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="main.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
