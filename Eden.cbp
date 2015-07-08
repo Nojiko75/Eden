@@ -40,16 +40,30 @@
 			<Add library="gdi32" />
 			<Add library="winmm" />
 			<Add library="dxguid" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL\lib\SDL_image.lib" />
 			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/lib" />
 		</Linker>
-		<Unit filename="Color.cpp" />
-		<Unit filename="Color.hpp" />
 		<Unit filename="Rectangle.hpp" />
 		<Unit filename="cb.bmp" />
+		<Unit filename="color.cpp" />
+		<Unit filename="color.hpp" />
+		<Unit filename="drawableObject.cpp" />
+		<Unit filename="drawableObject.hpp" />
 		<Unit filename="eden.cpp" />
 		<Unit filename="eden.hpp" />
+		<Unit filename="gameObject.cpp" />
+		<Unit filename="gameObject.hpp" />
+		<Unit filename="image.cpp" />
+		<Unit filename="image.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.hpp" />
+		<Unit filename="position.cpp" />
+		<Unit filename="position.hpp" />
+		<Unit filename="rectangle.cpp" />
+		<Unit filename="scene.cpp" />
+		<Unit filename="scene.hpp" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

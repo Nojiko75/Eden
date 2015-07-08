@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1431167293 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\main.cpp
+1436361279 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\main.cpp
 	"main.hpp"
+	"Rectangle.hpp"
+	"color.hpp"
 
 1325742240 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl.h
 	"SDL_main.h"
@@ -192,10 +194,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1433335993 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.cpp
+1436352096 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.cpp
 	"eden.hpp"
+	"Rectangle.hpp"
+	"image.hpp"
 
-1433344350 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.hpp
+1434490128 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\eden.hpp
+	"scene.hpp"
 	<iostream>
 	<SDL/SDL.h>
 
@@ -203,17 +208,69 @@
 	<iostream>
 	"eden.hpp"
 
-1433343595 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\color.cpp
+1434531681 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\color.cpp
 	"color.hpp"
 
-1433337374 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\color.hpp
+1434531696 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\color.hpp
 	<iostream>
 	<SDL/SDL.h>
 
-1433337312 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\position.cpp
+1434557689 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\position.cpp
 	"position.hpp"
 
-1433337123 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\position.hpp
+1435434565 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\position.hpp
 	<iostream>
 	<SDL/SDL.h>
+
+1435434444 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\drawableobject.cpp
+	"drawableObject.hpp"
+
+1434488074 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\gameobject.cpp
+	"gameObject.hpp"
+
+1434557470 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\gameobject.hpp
+	<iostream>
+	<SDL/SDL.h>
+
+1434569764 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\drawableobject.hpp
+	<iostream>
+	<SDL/SDL.h>
+	"gameObject.hpp"
+	"color.hpp"
+	"position.hpp"
+
+1434452176 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\utils.cpp
+	"Utils.hpp"
+
+1434451851 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\utils.hpp
+	<iostream>
+	<SDL/SDL.h>
+
+1436361249 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\rectangle.cpp
+	"rectangle.hpp"
+	"utils.hpp"
+
+1436352471 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\rectangle.hpp
+	<iostream>
+	<SDL/SDL.h>
+	"drawableObject.hpp"
+	"color.hpp"
+
+1434570570 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\scene.cpp
+	"scene.hpp"
+
+1435434846 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\scene.hpp
+	<iostream>
+	<vector>
+	<SDL/SDL.h>
+	"gameObject.hpp"
+
+1435445949 source:c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\image.cpp
+	"image.hpp"
+
+1435445295 c:\users\jamal\desktop\nojiko\esgi\cours\c++\eden\image.hpp
+	<iostream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"position.hpp"
 

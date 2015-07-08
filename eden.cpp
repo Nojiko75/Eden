@@ -1,4 +1,6 @@
 #include "eden.hpp"
+#include "Rectangle.hpp"
+#include "image.hpp"
 
 Eden::Eden(){
     name = "Eden Eternal";
@@ -47,11 +49,13 @@ void Eden::init()
       * SDL_HWSURFACE: charge les données dans la carte graphique
       * SDL_DOUBLEBUF: rend les déplacements à l'écran plus fluide
       */
+
     m_buffer = SDL_SetVideoMode(width, height, 32, SDL_HWSURFACE | SDL_DOUBLEBUF);
     char* charName= new char [name.length()-1];
-     strcpy(charName,name.c_str());
+    strcpy(charName,name.c_str());
     SDL_WM_SetCaption(charName, NULL);  /*titre de la fenêtre*/
-    //format = m_buffer->format;
+    format = m_buffer->format;
+
 }
 
 void Eden::run()
@@ -66,9 +70,18 @@ void Eden::run()
         //SDL_
 
         /** Dessiner éléments */
-
+        //Rectangle rect("Rect", 50, 50, 100, 150, SDL_MapRGB(m_buffer->format, 0xff, 0xff, 0x00), false);
+        /*Color color(255, 255, 0);
+        Position p(50,50);
+        Rectangle rect("Rect", p, 100, 150, color, false);
+        Image img("shin.png", p);
+        img.draw(m_buffer);
+        SDL_Flip(m_buffer);*/
+        //scene.add(&rect);
+        //std::cout << scene.getLength() << std::endl;
+        //rect.draw(m_buffer);
         /** Passer à la frame suivante */
-        SDL_Flip(m_buffer);
+        //SDL_Flip(m_buffer);
     }
 }
 
